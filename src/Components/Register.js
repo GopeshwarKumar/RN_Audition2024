@@ -145,7 +145,7 @@ function Register() {
   }
   return (
     <>
-    <div style={{backgroundImage:'url("/assets/RnbgImage.jpg")' }} className='w-screen min-h-screen mt-[3%] text-black bg-no-repeat bg-cover bg-center '>
+    <div style={{backgroundImage:'url("/assets/RnbgImage.jpg")' }} className='w-screen min-h-screen mt-[3%] text-black bg-no-repeat bg-cover  bg-center '>
     <motion.h1 whileInView={{opacity:1}} transition={{duration:2}} className='font-bold text-center py-[5vh] text-green-600 opacity-0 sm:text-[50px] vmd:text-[30px]  '>Register Here With Your Credentials</motion.h1>
 
     <form action='/getdata' method='POST' onSubmit={getfulldata} className='p-[3vh] text-white grid xl:grid-cols-3 xl:grid-rows-4  lg:grid-cols-2 lg:grid-rows-6 md:grid-cols-2 md:grid-rows-7 sm:grid-cols-2 sm:grid-rows-7 vmd:grid-cols-1 xl:gap-[8vh] lg:gap-[8vh] md:gap-[10vh] sm:gap-[7vh] vmd:gap-[5vh] place-items-center'>

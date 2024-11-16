@@ -44,8 +44,8 @@ const LandingPage = () => {
     <nav className="flex justify-between items-center bg-gradient-to-tr from-indigo-400 to-slate-500 p-4 blur-0 shadow">
 
     {/* Logo */}
-    <div className="flex items-center">
-        <img src="/assets/rn log.jpg" alt="Logo" className="hover:rounded-sm h-[50px] w-[70px]" />
+    <div className="flex items-center ">
+        <img src="/assets/rn log.jpg" alt="Logo" className="rnlogonavbar sm:h-[60px] vmd:h-[40px] sm:w-[70px] vmd:w-[40px]  hover:skew-x-2 hover:skew-y-2 transition-all " />
         {/* <h1 className='text-pink-600 font-extrabold text-4xl'>R<sup className='font-bold'>N</sup></h1> */}
       </div>
 
@@ -78,7 +78,7 @@ const LandingPage = () => {
     </nav>
 
     {isOpen && 
-    <div className="flex z-40 relative flex-col items-center justify-center space-y-4 p-10">
+    <div className="mobilenav flex z-40 relative flex-col items-center justify-center space-y-4 p-10">
     <Link  className="text-black font-bold font-serif  hover:text-slate-500">Home</Link>
     <Link onClick={gotoaboutsection} className="text-black font-bold font-serif hover:text-slate-500">About</Link>
     <Link onClick={gotocontactsection} className="text-black font-bold font-serif hover:text-slate-500">Contact</Link>

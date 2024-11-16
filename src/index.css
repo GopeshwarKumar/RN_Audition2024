@@ -44,3 +44,15 @@ a{
   text-decoration: none;
   color: blue;
 }
+
+.rnlogonavbar{
+  border-radius: 40%;
+}
+.rnlogonavbar:hover{
+  
+}
+.rnfooter{
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
